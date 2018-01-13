@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 public class Background extends JPanel
 {
 
-	String imageLocation = "F:/Coding/Fun/download.jpg";
+	String imageLocation = "F:/git/GuitarHero/Fun/download.jpg";
 	Image background = Toolkit.getDefaultToolkit().createImage(imageLocation);
 	Image scaledImage = background.getScaledInstance(1280, 720, Image.SCALE_FAST);
 
@@ -18,7 +18,6 @@ public class Background extends JPanel
 		
 		setBounds(0, 0, 1000, 1000);
 		setLayout(null);
-		
 		
 	}
 

@@ -16,7 +16,7 @@ public class Squares extends JPanel
 	int s = 60;
 	int x = 10;
 	int y = 0;
-
+	//Whatever
 	public Squares()
 	{
 

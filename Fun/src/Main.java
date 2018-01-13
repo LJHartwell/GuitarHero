@@ -18,10 +18,10 @@ public class Main implements ActionListener, KeyListener
 	int note = 0;
 	static ArrayList<Squares> squares = new ArrayList<Squares>();
 	static Squares current;
-	File one = new File("F:/Coding/Fun/test.wav");
-	File two = new File("F:/Coding/Fun/two.wav");
-	File three = new File("F:/Coding/Fun/three.wav");
-	File four = new File("F:/Coding/Fun/four.wav");
+	File one = new File("F:/git/GuitarHero/Fun/test.wav");
+	File two = new File("F:/git/GuitarHero/Fun/two.wav");
+	File three = new File("F:/git/GuitarHero/Fun/three.wav");
+	File four = new File("F:/git/GuitarHero/Fun/four.wav");
 	static int currentScore = 0;
 
 	public Main()
